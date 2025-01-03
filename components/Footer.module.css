@@ -1,0 +1,20 @@
+.footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.contact p,
+.social a {
+    margin: 5px;
+}
+
+.social a {
+    color: white;
+    text-decoration: none;
+}
+
+.social a:hover {
+    text-decoration: underline;
+}
