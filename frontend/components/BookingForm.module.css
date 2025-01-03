@@ -1,0 +1,54 @@
+.formContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.confirmation {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e0ffe0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation h2 {
+    color: #0070f3;
+}
+
+.confirmation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.confirmation li {
+    margin-bottom: 10px;
+}
+
+.confirmation li strong {
+    display: inline-block;
+    width: 150px;
+}
+
+@media (max-width: 768px) {
+    .formContainer {
+        padding: 10px;
+    }
+
+    .confirmation {
+        padding: 10px;
+    }
+
+    .confirmation li strong {
+        width: 100px;
+    }
+}
